@@ -27,7 +27,7 @@ llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
 # )
 
 
-#instead of this tool we will add the mcp client
+#instead of this tool we will add the mcp client-------------------
 client = MultiServerMCPClient(
     {
         #for calculator mcp tool server
